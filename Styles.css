@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-html		{
+html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,10 +9,10 @@ html		{
   background-color: #e7e7e8;
   color: black;
   font-family: 'Roboto', sans-serif;
-  scroll-behavior:smooth
+  scroll-behavior: smooth
 }
 
-body    {
+body {
   margin: 0
 }
 
@@ -62,34 +62,34 @@ body    {
 
 @font-face {
   font-family: 'Poppins-Regular';
-  src : url('Fonts/Poppins-Regular.ttf');
+  src: url('Fonts/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Poppins-Thin';
-  src : url('Fonts/Poppins-Thin.ttf');
+  src: url('Fonts/Poppins-Thin.ttf');
 }
 
-.headband	{
+.headband {
   position: fixed;
   top: 0px;
   margin: auto;
   background-color: #282a35;
   width: 100%;
-  height:	auto;
-  z-index:1000;
+  height: auto;
+  z-index: 1000;
   text-underline-offset: 10px;
 }
 
 
-.stockholm	{
+.stockholm {
   font-family: Poppins-Regular;
   text-shadow: 1px 1px 2px black;
-  height:	300px;
+  height: 300px;
   background-image: url("Images/Stockholm.jpg");
   width: auto;
   text-align: center;
-  letter-spacing:	5px;
+  letter-spacing: 5px;
   font-size: 0px;
   outline-style: groove;
   outline-color: #282a35;
@@ -163,8 +163,8 @@ body    {
 }
 
 .nav a:hover:before,
-.nav a:hover:after{
-  transform: translate(0,0);
+.nav a:hover:after {
+  transform: translate(0, 0);
   opacity: 1;
 }
 
@@ -173,7 +173,7 @@ body    {
 }
 
 .table1 {
-  background-color: rgba(25,245,124,0.5);
+  background-color: rgba(25, 245, 124, 0.5);
 }
 
 .zoom {
@@ -191,36 +191,38 @@ body    {
   width: 50%;
 }
 
-.to-top{
-  color:black;
-  padding-top:1.8em;
-  display:inline-block;/* or block */
-  position:relative;
-  border-color:black;
-  text-decoration:none;
-  transition: transform .2s; /* Animation */
+.to-top {
+  color: black;
+  padding-top: 1.8em;
+  display: inline-block;
+  /* or block */
+  position: relative;
+  border-color: black;
+  text-decoration: none;
+  transition: transform .2s;
+  /* Animation */
 }
 
-.to-top:before{
-  color:black;
-  content:'⇡';
-  font-size:.9em;
-  position:absolute;
-  top:0;
-  left:50%;
-  margin-left:-.7em;
-  border:solid .13em black;
-  border-radius:10em;
-  width:1.4em;
-  height:1.4em;
-  line-height:1.3em;
-  border-color:inherit;
-  transition:transform .5s ease-in;
+.to-top:before {
+  color: black;
+  content: '⇡';
+  font-size: .9em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -.7em;
+  border: solid .13em black;
+  border-radius: 10em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.3em;
+  border-color: inherit;
+  transition: transform .5s ease-in;
 }
 
-.to-top:hover{
-  color:black;
-  border-color:black;
+.to-top:hover {
+  color: black;
+  border-color: black;
   transform: scale(1.5);
 }
 
@@ -288,6 +290,6 @@ transform: rotate(360deg);
 }
 
 table {
-  overflow:hidden;
-  table-layout:fixed;
-  }​
+  overflow: hidden;
+  table-layout: fixed;
+}
